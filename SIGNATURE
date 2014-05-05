@@ -1,0 +1,41 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 9ca3ce927d10ae2fd0db441705278cd66e0c7d85 MANIFEST
+SHA1 1f13abed63bd025e7626042ab9482609ceb2acc0 META.json
+SHA1 d60ff4a877d2ef2a97b0c14075b760e5f0567803 META.yml
+SHA1 086f31a8807786cfc407ee4b19f6bcb6cbc236b9 Makefile.PL
+SHA1 cd9c5c7b9edf9798c95123be9b6968e8f6e0cb76 Readme.md
+SHA1 205f311fa3e0af5c65f5c3fdae6fe84a71966edc bin/modules-extractor.pl
+SHA1 443b45b753be370d23bf64fc3f8134b585f1caf4 lib/PMInfoExtr/Acquisition.pm
+SHA1 6da7b86b00705219aa0ec9ac7e0cf9a7a7e3ac53 lib/PMInfoExtr/Analysis.pm
+SHA1 ba10b6fcd8af657c6192d8709cb59a703d41c986 lib/PMInfoExtr/Distributions.pm
+SHA1 d44b2ddb823cf1d4d21939cd5cc50cc7e0d3b2ff lib/PMInfoExtr/DpkgInformation.pm
+SHA1 7f781b328b252daf129048177f694516ed9f4790 lib/PMInfoExtr/Manager.pm
+SHA1 ff82a0aabe0ee161027115cabdbad3628ac58bc9 lib/PMInfoExtr/Report.pm
+SHA1 f351a0ebdd9ca4571d534fb28f0b38075805536c lib/PMInfoExtr/Search.pm
+SHA1 5edcf3df9ef207acf302d5e992c10284a64039b5 lib/PMInfoExtr/UnknownModulesDeps.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJTZ4tQAAoJEAwJr/TSy2CRn04IAN+NTDt5FOFwGLulXGwhyC4u
+/HAIRU7z3snYNktHD3xmY1AkYOUS0sU3zr179+LHRdkQjW+ql1zgxbbsC5MfFaW8
+k748PZkRTy1YY7m16vhb7ywG98go//xPoi5mLdCR/wFl2Ju72VPIjI0t/t4Vp/Tm
+q1nTNJuwmn0xGja3Me1CtadSbnm0EfjpnP0Pw/eZF/2qeW92a7nUA89/45nS3AZC
+sG+4ZdK57IgGufu+0kb87hSlqfQFsKcPRfLi1Xt283cN13sTJ8fW0KDh6h3ICu43
+pU8Izz3tGTUhtwrVTzo7SfZBXH7g4GQyzBk/JdnvIeBjPrHnvvqCFnxT5hviryk=
+=qaiS
+-----END PGP SIGNATURE-----
