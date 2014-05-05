@@ -20,8 +20,10 @@ no_index:
 requires:
   DPKG::Parse: '0'
   Devel::Modlist: '0'
+  File::Find::Rule: '0'
+  Getopt::Long: '0'
   JSON: '0'
   MetaCPAN::API: '0'
   Moose: '0'
   UUID::Tiny: '0'
-version: '0.001'
+version: '0.002'

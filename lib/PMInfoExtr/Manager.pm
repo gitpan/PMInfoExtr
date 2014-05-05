@@ -36,7 +36,7 @@ use PMInfoExtr::UnknownModulesDeps;
 
 our $pm = {};
 
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 our %options = (
 	'debug' => 0,
 	'folders' => [],

@@ -29,7 +29,7 @@ use MetaCPAN::API;
 
 use Data::Dumper;
 
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 
 has 'mcpan' => (is => 'rw', isa => 'MetaCPAN::API');
 

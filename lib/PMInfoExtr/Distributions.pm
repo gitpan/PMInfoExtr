@@ -27,7 +27,7 @@ use warnings;
 use Moose;
 use Data::Dumper;
 
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 
 our $distributions = {};
 

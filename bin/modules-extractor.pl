@@ -29,7 +29,7 @@ use PMInfoExtr::Manager;
 use Cwd;
 use Getopt::Long;
 
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 
 my $manager = PMInfoExtr::Manager->new();
 

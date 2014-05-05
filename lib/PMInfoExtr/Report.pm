@@ -28,7 +28,7 @@ use Moose;
 use JSON;
 use UUID::Tiny ':std';
 
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 
 sub init {
 	my $self = shift;
