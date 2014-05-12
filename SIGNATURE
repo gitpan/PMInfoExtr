@@ -15,27 +15,27 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 9ca3ce927d10ae2fd0db441705278cd66e0c7d85 MANIFEST
-SHA1 65a961cab9566fdd4555e5ec613ea27a85057b67 META.json
-SHA1 3999a0f86cd0421382df03936c885addf7bf5e2e META.yml
+SHA1 abd2fc74d59eed5c77c4d8e2a155ae104ace4817 META.json
+SHA1 effdfeaa2c6067727105e61602498d933456e752 META.yml
 SHA1 df11a69a229d0cc16115eb98871a3a364009ec8c Makefile.PL
 SHA1 cd9c5c7b9edf9798c95123be9b6968e8f6e0cb76 Readme.md
-SHA1 b15164379e226ede624cdbb36b58c75cb05e0a17 bin/modules-extractor.pl
-SHA1 5e493e39ddebffae2162555ac52c4d74b2acdd86 lib/PMInfoExtr/Acquisition.pm
-SHA1 3e58104445ce90fdf916df8c1bd960f9f37e7c57 lib/PMInfoExtr/Analysis.pm
-SHA1 5c406ba5d48a677e37fc4041db41174adaff9897 lib/PMInfoExtr/Distributions.pm
-SHA1 d84f212cf2bd0b2af539749728f8ac2cecb03ee6 lib/PMInfoExtr/DpkgInformation.pm
-SHA1 11a984d8951b2c486609b475bdd86f8fc4df92fe lib/PMInfoExtr/Manager.pm
-SHA1 4a1bdd9773c5074cf36d74fe0df633e75a1d2de1 lib/PMInfoExtr/Report.pm
-SHA1 61ca8e9c538958c9e4c845d7f1f1d864a2a7e6a4 lib/PMInfoExtr/Search.pm
-SHA1 5edcf3df9ef207acf302d5e992c10284a64039b5 lib/PMInfoExtr/UnknownModulesDeps.pm
+SHA1 448494c6629295a6e4f8220ea9b1f7905455e08d bin/modules-extractor.pl
+SHA1 d2cde8bcc15889a53cd36557a786e3c7af72c379 lib/PMInfoExtr/Acquisition.pm
+SHA1 68d5893bc7982389b639685d2e59aa6949987cbe lib/PMInfoExtr/Analysis.pm
+SHA1 d359f215bac6b0650d02620320e7da0446e1ded5 lib/PMInfoExtr/Distributions.pm
+SHA1 29ef4b4f2062b3974227bc11db708d1109fc9d40 lib/PMInfoExtr/DpkgInformation.pm
+SHA1 e9e8daef7788aa81fbf1cd772a4d870087340e17 lib/PMInfoExtr/Manager.pm
+SHA1 36a1503e8947a1c66d79871858a8240cc2b40d6b lib/PMInfoExtr/Report.pm
+SHA1 219b6d4b9edf31eab7222cc2d5a7ff955cb65b91 lib/PMInfoExtr/Search.pm
+SHA1 7a43d502ce0ec7e4d0461322a4000d65e1b7e78f lib/PMInfoExtr/UnknownModulesDeps.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJTZ49yAAoJEAwJr/TSy2CRNVEIAJ+fr5tvlTvxsDxsOJds3EBU
-sa6FxnpSQ5jo2K0IbuLPkAys4cX+NlcmpKyDl8HIwTHUBUeMwTMkIE5Jtxel9paq
-t/0VRZ7UTKQanFbuRNpymQdjeV6WqZpJ9F0AIPOMfpvHrSryprpkJoHJclU78Rxy
-e9AhpRhVJds+Ius7JpoQ+J6AimWWIqcFWX6dX4Z5rIqyrusEtgBiNvRzKSAbQD/e
-1v2F7FRNgZNqmgQZdlaVAf/Qc0h9K8im+g9Mv6rI3MbDw/Jz9n3GrQ5P+dRkQHVt
-LHWyvyHVx5pO5vMB3QQf3dj6Vk57iFW1vN5VhehPxyR7LkgN9ktBSkt0mN39Wds=
-=jhBw
+iQEcBAEBAgAGBQJTcKCQAAoJEAwJr/TSy2CR8fkIAKfKP2CZ8exxG94dR8SmJa/B
+j7Lyf2p4sZ2AD4+H1ZPqUR/lG41gz642sKKdvu7TGW+HQqaRW3r2HoqYueCxeS18
+DccRAxyNQ3A6DSgQm62vfpobQFCvZVI4yqkDlYP2t5hMClQNsqPaV45YnXw5A6X/
+DZ1Eg9aHz6l1Z7UzlyNzWBH9NmEwr/r1NdGIzhm5ANH+pNd23au2dy02q8MpPvfK
+tEqdpRvPy/obJbtrxFUzZlHSdD2HzVfxwXmE1tiI3rTfBnBF0e7Ty86XDDj+sK78
+De5+H7qzJZxaCjH0Ha3RZf5yjakPNvU2aimTRbnb0wRXZg54hNli7WJd+EeFy8g=
+=ElRp
 -----END PGP SIGNATURE-----

@@ -26,7 +26,7 @@ use warnings;
 
 use Moose;
 
-our $VERSION = 0.002;
+our $VERSION = 0.003;
 
 sub init {
 	my $self = shift;

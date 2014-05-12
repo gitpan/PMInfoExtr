@@ -26,6 +26,8 @@ use strict;
 
 use PMInfoExtr::Manager;
 
+our $VERSION = 0.003;
+
 =head1 NAME
 
 PMInfoExtr::UnknownModulesDeps; - Fallback when unable to detect installation mode (DPKG, CPAN)

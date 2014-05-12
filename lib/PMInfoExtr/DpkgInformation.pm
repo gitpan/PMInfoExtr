@@ -27,7 +27,7 @@ use warnings;
 use Moose;
 use DPKG::Parse::Status;
 
-our $VERSION = 0.002;
+our $VERSION = 0.003;
 
 has 'perl_packages' => (is => 'rw', isa => 'HashRef[Ref]', default => sub { {} });
 has 'only_files' => (is => 'rw', isa => 'ArrayRef[Str]', default => sub { [] });

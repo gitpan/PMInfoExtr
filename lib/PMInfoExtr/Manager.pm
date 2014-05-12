@@ -36,7 +36,7 @@ use PMInfoExtr::UnknownModulesDeps;
 
 our $pm = {};
 
-our $VERSION = 0.002;
+our $VERSION = 0.003;
 our %options = (
 	'debug' => 0,
 	'folders' => [],
@@ -91,7 +91,9 @@ sub start {
 	my $self = shift;
 #gather information from finding Perl Modules and from DPKG
 	$self->search->init();
-	$self->dpkg->init();
+	if ($options{dpkg}) {
+		$self->dpkg->init();
+	}
 #file information gathering is over
 
 #beginning the minus operation between whole files and dpkg files

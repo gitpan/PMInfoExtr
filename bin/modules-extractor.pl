@@ -29,7 +29,7 @@ use PMInfoExtr::Manager;
 use Cwd;
 use Getopt::Long;
 
-our $VERSION = 0.002;
+our $VERSION = 0.003;
 
 my $manager = PMInfoExtr::Manager->new();
 
@@ -46,7 +46,7 @@ sub output_file {
 
 sub help {
 	my $line = shift;
-	my $help_line = "perl $0 [--config-path-file = config_path_file | --debug | --folders = folder_name | --help | --include | --output = output_file]";
+	my $help_line = "perl $0 [--config-path-file = config_path_file | --debug | --folders = folder_name | --help | --cpan | --output = output_file]";
 	if ($line) {
 		print <<EOF;
 $line
@@ -81,14 +81,16 @@ sub main {
 	my @options = @_;
 	my $help = 0;
 	my $debug = 0;
-	my $include = 0;
+	my $cpan = 0;
+	my $dpkg = 0;
 
 	GetOptions (
 		'help!' => \$help,
 		'debug!' => \$debug,
 		'folders=s' => \&add_folders,
 		'output=s' => \&output_file,
-		'include!' => \$include,
+		'cpan!' => \$cpan,
+		'dpkg!' => \$dpkg,
 		'config-path-file=s' => \&read_config_path_file,
 	);
 
@@ -98,8 +100,9 @@ sub main {
 	}
 
 	$manager->set_options("debug", $debug);
+	$manager->set_options("dpkg", $dpkg);
 
-	if ($include) {
+	if ($cpan) {
 		for (@INC) {
 			my $link = readlink ($_);
 			if (defined $link) {
