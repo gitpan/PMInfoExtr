@@ -15,7 +15,7 @@ my %WriteMakefileArgs = (
 	],
 	'LICENSE' => 'Apache2',
 	'NAME' => 'PMInfoExtr',
-	'VERSION_FROM'  => 'lib/PMInfoExtr/Manager.pm',
+	'VERSION_FROM'  => 'lib/PMInfoExtr/Version.pm',
 	'PREREQ_PM' => {
 		'JSON' => '0',
 		'Moose' => '0',

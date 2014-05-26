@@ -27,8 +27,9 @@ use warnings;
 use Moose;
 use JSON;
 use UUID::Tiny ':std';
+use PMInfoExtr::VERSION;
 
-our $VERSION = 0.003;
+our $VERSION = $PMInfoExtr::VERSION::VERSION;
 
 sub init {
 	my $self = shift;

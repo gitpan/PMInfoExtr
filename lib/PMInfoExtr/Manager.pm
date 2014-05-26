@@ -34,9 +34,12 @@ use PMInfoExtr::Report;
 use PMInfoExtr::Distributions;
 use PMInfoExtr::UnknownModulesDeps;
 
+use PMInfoExtr::VERSION;
+
 our $pm = {};
 
-our $VERSION = 0.003;
+our $VERSION = $PMInfoExtr::VERSION::VERSION;
+
 our %options = (
 	'debug' => 0,
 	'folders' => [],

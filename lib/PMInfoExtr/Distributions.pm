@@ -26,8 +26,9 @@ use warnings;
 
 use Moose;
 use Data::Dumper;
+use PMInfoExtr::VERSION;
 
-our $VERSION = 0.003;
+our $VERSION = $PMInfoExtr::VERSION::VERSION;
 
 our $distributions = {};
 

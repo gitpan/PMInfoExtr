@@ -23,13 +23,13 @@
 
 use strict;
 use warnings;
-use v5.14;
 
 use PMInfoExtr::Manager;
 use Cwd;
 use Getopt::Long;
+use PMInfoExtr::VERSION;
 
-our $VERSION = 0.003;
+our $VERSION = $PMInfoExtr::VERSION::VERSION;
 
 my $manager = PMInfoExtr::Manager->new();
 

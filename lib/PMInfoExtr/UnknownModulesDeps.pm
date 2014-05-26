@@ -25,8 +25,9 @@ use warnings;
 use strict;
 
 use PMInfoExtr::Manager;
+use PMInfoExtr::VERSION;
 
-our $VERSION = 0.003;
+our $VERSION = $PMInfoExtr::VERSION::VERSION;
 
 =head1 NAME
 

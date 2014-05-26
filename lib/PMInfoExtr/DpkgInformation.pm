@@ -26,8 +26,9 @@ use warnings;
 
 use Moose;
 use DPKG::Parse::Status;
+use PMInfoExtr::VERSION;
 
-our $VERSION = 0.003;
+our $VERSION = $PMInfoExtr::VERSION::VERSION;
 
 has 'perl_packages' => (is => 'rw', isa => 'HashRef[Ref]', default => sub { {} });
 has 'only_files' => (is => 'rw', isa => 'ArrayRef[Str]', default => sub { [] });
@@ -38,7 +39,7 @@ sub init {
 
 	$self->dpkg_info();
 	if ($PMInfoExtr::Manager::options{'debug'}) {
-		my $num = keys $self->perl_packages;
+		my $num = keys %$self->perl_packages;
 		print STDERR "Perl Packages: $num\n";
 	}
 	return;

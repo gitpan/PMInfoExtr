@@ -14,28 +14,29 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 9ca3ce927d10ae2fd0db441705278cd66e0c7d85 MANIFEST
-SHA1 abd2fc74d59eed5c77c4d8e2a155ae104ace4817 META.json
-SHA1 effdfeaa2c6067727105e61602498d933456e752 META.yml
-SHA1 df11a69a229d0cc16115eb98871a3a364009ec8c Makefile.PL
+SHA1 054047add65b6e4f916aa2df15d1162ef43fb868 MANIFEST
+SHA1 489ac53b56bd79b4e6e5b5d23f14201e9f3f5deb META.json
+SHA1 42009ed7f6d53660b4bf6a7b8dd9d976cc02de4e META.yml
+SHA1 e94e225e041dd8d7c16d1d44722fa9fdb0b95014 Makefile.PL
 SHA1 cd9c5c7b9edf9798c95123be9b6968e8f6e0cb76 Readme.md
-SHA1 448494c6629295a6e4f8220ea9b1f7905455e08d bin/modules-extractor.pl
-SHA1 d2cde8bcc15889a53cd36557a786e3c7af72c379 lib/PMInfoExtr/Acquisition.pm
-SHA1 68d5893bc7982389b639685d2e59aa6949987cbe lib/PMInfoExtr/Analysis.pm
-SHA1 d359f215bac6b0650d02620320e7da0446e1ded5 lib/PMInfoExtr/Distributions.pm
-SHA1 29ef4b4f2062b3974227bc11db708d1109fc9d40 lib/PMInfoExtr/DpkgInformation.pm
-SHA1 e9e8daef7788aa81fbf1cd772a4d870087340e17 lib/PMInfoExtr/Manager.pm
-SHA1 36a1503e8947a1c66d79871858a8240cc2b40d6b lib/PMInfoExtr/Report.pm
-SHA1 219b6d4b9edf31eab7222cc2d5a7ff955cb65b91 lib/PMInfoExtr/Search.pm
-SHA1 7a43d502ce0ec7e4d0461322a4000d65e1b7e78f lib/PMInfoExtr/UnknownModulesDeps.pm
+SHA1 16a0f430086ed093f68509701b2c414244676397 bin/modules-extractor.pl
+SHA1 d39c0b40d17402f409cba39a1f51b66d0e5e04ad lib/PMInfoExtr/Acquisition.pm
+SHA1 88c26b8abfc4bd11fcc608685d7dd44d5f400b7d lib/PMInfoExtr/Analysis.pm
+SHA1 dbe916e25d9b22be90a2c66a53190c567ef17691 lib/PMInfoExtr/Distributions.pm
+SHA1 22ddaaa5dee705f4ee3003d5dbc6be96ff9d0a9f lib/PMInfoExtr/DpkgInformation.pm
+SHA1 48b0a51d45e0b91eb8b3a3176819b5e82823c5f0 lib/PMInfoExtr/Manager.pm
+SHA1 6b1cce79495b5e86b31cedab9759594e820990e9 lib/PMInfoExtr/Report.pm
+SHA1 64adc92dc94a7877ff76c0b50d6cb4e6cc26b23d lib/PMInfoExtr/Search.pm
+SHA1 af076088ead604a7558c92302d33e20e7eda1d74 lib/PMInfoExtr/UnknownModulesDeps.pm
+SHA1 e7c045adf4caf8d9a0b4b4472f4510fcffe2f7ef lib/PMInfoExtr/Version.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJTcKCQAAoJEAwJr/TSy2CR8fkIAKfKP2CZ8exxG94dR8SmJa/B
-j7Lyf2p4sZ2AD4+H1ZPqUR/lG41gz642sKKdvu7TGW+HQqaRW3r2HoqYueCxeS18
-DccRAxyNQ3A6DSgQm62vfpobQFCvZVI4yqkDlYP2t5hMClQNsqPaV45YnXw5A6X/
-DZ1Eg9aHz6l1Z7UzlyNzWBH9NmEwr/r1NdGIzhm5ANH+pNd23au2dy02q8MpPvfK
-tEqdpRvPy/obJbtrxFUzZlHSdD2HzVfxwXmE1tiI3rTfBnBF0e7Ty86XDDj+sK78
-De5+H7qzJZxaCjH0Ha3RZf5yjakPNvU2aimTRbnb0wRXZg54hNli7WJd+EeFy8g=
-=ElRp
+iQEcBAEBAgAGBQJTg3zAAAoJEAwJr/TSy2CRggEIALz7tb2hkVTnlpxQ7bj3t+26
+s5CaCUwDT8OtKwp45cP/K11u/a+hiQHjuNZbpQ1m7VSYhisNUsOLDLJ8TaCNJM9v
+1Ngu7qTv3kKaSIJWYIuV2Klg7rmq2NjtkgVMSeYGy9w6kpaEF9+UQpjDmcodQLCF
+CCwrY6glclayjIEODoqs0MZur+ggbJ4fkJfOTRElyF9x/GNttkIvl9xJ7a1k/pIH
+ZkTyQHMXPFPgNDEdhaWbhtEYBA1+/7okDjkFsfP1hOVLUwMvLX0pWgUR560Blq8V
+ys6vjJi8bRJjKHFKFQfpEHJRy06HV0HOAfvN7KfdcF/dohLnUycIvUzg520Y1aU=
+=AR2k
 -----END PGP SIGNATURE-----
