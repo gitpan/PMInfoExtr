@@ -27,9 +27,9 @@ use warnings;
 use Moose;
 use File::Find::Rule;
 use PMInfoExtr::Manager;
-use PMInfoExtr::VERSION;
+use PMInfoExtr::Version;
 
-our $VERSION = $PMInfoExtr::VERSION::VERSION;
+our $VERSION = $PMInfoExtr::Version::VERSION;
 
 has 'files' => (
 	is => 'rw',

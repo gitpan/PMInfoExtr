@@ -34,15 +34,16 @@ use PMInfoExtr::Report;
 use PMInfoExtr::Distributions;
 use PMInfoExtr::UnknownModulesDeps;
 
-use PMInfoExtr::VERSION;
+use PMInfoExtr::Version;
 
 our $pm = {};
 
-our $VERSION = $PMInfoExtr::VERSION::VERSION;
+our $VERSION = $PMInfoExtr::Version::VERSION;
 
 our %options = (
 	'debug' => 0,
 	'folders' => [],
+	'output_file' => 'output.json',
 );
 
 use Data::Dumper;

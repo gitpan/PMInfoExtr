@@ -27,9 +27,9 @@ use warnings;
 use PMInfoExtr::Manager;
 use Cwd;
 use Getopt::Long;
-use PMInfoExtr::VERSION;
+use PMInfoExtr::Version;
 
-our $VERSION = $PMInfoExtr::VERSION::VERSION;
+our $VERSION = $PMInfoExtr::Version::VERSION;
 
 my $manager = PMInfoExtr::Manager->new();
 
@@ -83,6 +83,7 @@ sub main {
 	my $debug = 0;
 	my $cpan = 0;
 	my $dpkg = 0;
+	my $clean = 0;
 
 	GetOptions (
 		'help!' => \$help,
@@ -92,6 +93,7 @@ sub main {
 		'cpan!' => \$cpan,
 		'dpkg!' => \$dpkg,
 		'config-path-file=s' => \&read_config_path_file,
+		'clean!' => \$clean,
 	);
 
 	if ($help) {
@@ -117,6 +119,17 @@ sub main {
 				}
 			}
 		}
+	}
+
+	if ($clean) {
+		unlink "output.json";
+	}
+
+	if (-e "output.json") {
+		open my $output, "<", "output.json" || die ("Can't open file output.json. $!");
+		my $data = <$output>;
+		print STDOUT $data;
+		exit 0;
 	}
 
 	unlink "not_found.log";

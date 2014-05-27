@@ -26,11 +26,11 @@ use warnings;
 
 use Moose;
 use MetaCPAN::API;
-use PMInfoExtr::VERSION;
+use PMInfoExtr::Version;
 
 use Data::Dumper;
 
-our $VERSION = $PMInfoExtr::VERSION::VERSION;
+our $VERSION = $PMInfoExtr::Version::VERSION;
 
 has 'mcpan' => (is => 'rw', isa => 'MetaCPAN::API');
 

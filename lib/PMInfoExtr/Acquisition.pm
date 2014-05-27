@@ -25,9 +25,9 @@ use strict;
 use warnings;
 
 use Moose;
-use PMInfoExtr::VERSION;
+use PMInfoExtr::Version;
 
-our $VERSION = $PMInfoExtr::VERSION::VERSION;
+our $VERSION = $PMInfoExtr::Version::VERSION;
 
 sub init {
 	my $self = shift;
