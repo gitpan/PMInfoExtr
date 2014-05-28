@@ -70,6 +70,7 @@ sub print_array_to_json {
 		open my $report, ">", $PMInfoExtr::Manager::options{'output_file'} or die("ERROR opening file ". $PMInfoExtr::Manager::options{'output_file'} . " . $!\n");
 		print $report $json->encode(\%perl);
 		close $report;
+		print STDOUT $json->encode(\%perl);
 	} else {
 		print STDOUT $json->encode(\%perl);
 	}
